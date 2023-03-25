@@ -1,5 +1,5 @@
 {
-    "name": "wandsdev/auth-api",
+    "name": "wandsdev/laravel-auth-api",
     "description": "API de autenticação para aplicativose frontend e mobile, construido com Laravel Sanctum.",
     "license": "MIT",
     "authors": [

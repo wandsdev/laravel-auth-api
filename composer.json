@@ -10,9 +10,7 @@
     ],
     "homepage": "https://github.com/wandsdev/laravel-auth-api",
     "keywords": ["Laravel", "AuthApi", "Laravel Sanctum"],
-    "require": {
-        "illuminate/support": "~9"
-    },
+    "require": {},
     "require-dev": {
         "phpunit/phpunit": "~9.0",
         "orchestra/testbench": "~7"

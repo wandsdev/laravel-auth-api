@@ -36,5 +36,7 @@
                 "AuthApi": "WandsDev\\AuthApi\\Facades\\AuthApi"
             }
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }

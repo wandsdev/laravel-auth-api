@@ -1,0 +1,40 @@
+{
+    "name": "wandsdev/auth-api",
+    "description": "API de autenticação para aplicativose frontend e mobile, construido com Laravel Sanctum.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wanderlei Aguiar",
+            "email": "wandsdeveloper@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/wandsdev/laravel-auth-api",
+    "keywords": ["Laravel", "AuthApi", "Laravel Sanctum"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "WandsDev\\AuthApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WandsDev\\AuthApi\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "WandsDev\\AuthApi\\AuthApiServiceProvider"
+            ],
+            "aliases": {
+                "AuthApi": "WandsDev\\AuthApi\\Facades\\AuthApi"
+            }
+        }
+    }
+}
